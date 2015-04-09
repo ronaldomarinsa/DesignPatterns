@@ -29,6 +29,7 @@ class Form
             }
         }
 
+        $html.="<input type=submit value='Enviar'>";
         $html.="</form>";
 
         return $html;

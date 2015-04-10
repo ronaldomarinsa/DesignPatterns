@@ -12,14 +12,13 @@ spl_autoload_register(function($className) {
     if (is_file($file)) {
         require_once($file);
     } else {
-        throw new \ErrorException("Não consegue abrir a classe {$className}. Arquivo não encontrado: {$file}");
+        throw new \ErrorException("Não conseguiu abrir a classe {$className}. Arquivo não encontrado: {$file}");
         die();
     }
 });
 
 
 // GERA O FORMULÁRIO
-
 use rma\Form\Form;
 
 $f = new rma\Form\Form();

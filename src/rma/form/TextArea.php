@@ -4,8 +4,8 @@ namespace rma\Form;
 
 class TextArea implements FormElementInterface
 {
-    //O name e id do objeto serão iguais.
-    //Não serão utilizados os demais atributos como: rows, cols, OnClick, OnKeyPress, etc...
+    // name e id do objeto serão iguais
+    // não vou utilizar demais atributos, como rows, cols, OnClick, OnKeyPress etc
     private $name_id;
     private $type;
 

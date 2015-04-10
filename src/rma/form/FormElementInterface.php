@@ -7,7 +7,7 @@ $form->render();
 Com apenas estas três linhas deve ser criado um formulário com um input.
  */
 
-namespace Maia\Form;
+namespace rma\Form;
 
 interface FormElementInterface
 {

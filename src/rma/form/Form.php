@@ -1,5 +1,5 @@
 <?php
-namespace Maia\Form;
+namespace rma\Form;
 
 
 class Form

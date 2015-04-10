@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Trilhando caminho com PHP
 ##Design Patterns
 ###Projeto Fase 1
@@ -11,3 +12,6 @@ Formulário básico
 - Essa classe deverá possuir um método chamado render, esse método terá o objetivo de gerar o código HTML do formulário, baseado nos campos adicionados anteriormente.
 
 - Não deixe de tentar utilizar os conceitos de patterns e design aprendidos até o momento, para que o projeto possa evoluir de forma mais estruturada.
+=======
+# designpatterns
+>>>>>>> 71eaf3989c91ce2e427c06970fd363c8db1483aa

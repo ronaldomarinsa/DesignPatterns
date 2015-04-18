@@ -1,13 +1,19 @@
 {
-    "description" : "Trilhando caminho com PHP - Design Patterns",
-    
-    "require" :{
-        "php" : ">=5.4"
-    },
-    
-    "autoload": {
-        "psr-4": {
-            "BVW\\" : "src/BVW/"
+    "name" : "ronaldomarins - 2º Projeto DESIGN PATTERNS com PHP - Portal Code Education",
+    "authors" : [
+        {
+            "name" : "Ronaldo Marins",
+            "email" : "ronaldo.microsiga@gmail.com"
         }
-    }    
+    ],
+    "license" : "MIT",
+
+    "require" : {
+        "php" : ">=5.5"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "" : "src/"
+        }
+    }
 }
